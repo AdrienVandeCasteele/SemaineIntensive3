@@ -1,3 +1,19 @@
-canvas {
-	border: 1px solid black;
+body{
+  margin: 0;
+  padding: 0;
+}
+
+div#map{
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  background: grey;
+  position: relative;
+}
+
+div#perso{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background: red;
 }
